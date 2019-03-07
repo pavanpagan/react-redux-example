@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  margin-top: 20%;
+
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.addEmployee{
+  color: #26F523;
+  margin-top: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+}
+div.counter{
+  color: #26F523;
+  padding-top: 2%;
+}
+.labels{
+  color: #26F523;
+
+}
