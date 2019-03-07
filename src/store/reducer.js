@@ -16,7 +16,7 @@ const reducer =  (state=initialState, action) => {
             newState.age --;
             break;
         case 'DO':
-                    newState.age --;
+                    newState.age++;
                    break;
     }
     return newState;
