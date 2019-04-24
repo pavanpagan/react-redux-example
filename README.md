@@ -1,8 +1,8 @@
 
-#This is a simple react redux example project
+# This is a simple react redux example project
 
 
-#to run
+# to run
 
 npm install
 
