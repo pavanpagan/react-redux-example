@@ -10,14 +10,17 @@ const reducer =  (state=initialState, action) => {
     {
         case 'AGE_UP': 
             newState.age ++;
-            break;
+        break;
         
         case 'AGE_DOWN': 
             newState.age --;
-            break;
+        break;
         case 'DO':
-                    newState.age++;
-                   break;
+            newState.age++;
+		break;
+		default:
+			
+		
     }
     return newState;
 };

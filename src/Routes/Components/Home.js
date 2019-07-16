@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import logo from '../../logo.svg';
+//import logo from '../../logo.svg';
 import '../../App.css';
 import { connect } from 'react-redux';
 import {Link} from 'react-router-dom';
@@ -8,10 +8,10 @@ import {plusCircle} from 'react-icons-kit/fa/plusCircle';
 import {minusCircle} from 'react-icons-kit/fa/minusCircle';
 import {home} from 'react-icons-kit/icomoon/home'
 class Home extends Component {
-constructor(props)
+/*constructor(props)
 {
   super(props);
-}
+}*/
 
  render() 
  {
